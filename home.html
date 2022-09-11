@@ -27,7 +27,7 @@
                         <a class="nav-link" href="#skills">Skills</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact Me</a>
+                        <a class="nav-link" href="#contact">Contact Me</a>
                       </li>
                     </ul>
         </header>
@@ -37,14 +37,14 @@
             <section id="about-me">
               <div class="container text-left w-75 pt-5">
                 <div class="row pt-2">
-                  <div id="about-me-text"class="col-sm-12 col-md-8">
-                    <p>Hi! My name is</p>
+                  <div id="about-me-text"class="col-sm-12 col-md-8 pb-5">
+                    <p class="py-2">Hi! My name is</p>
                     <h1>Sophie White.</h1>
                     </br>
-                    <p>I'm a front end developer with a focus on creating accessible and engaging websites.</p>
+                    <p class="pt-2">I'm a front end developer with a focus on creating accessible and engaging websites.</p>
                     <p>Fun Fact: I've been programming for [JS FUNCTION] seconds!</p>
                   </div>
-                  <div id="about-me-logo" class="col-sm-12 col-md-4 img-circle img-responsive text-center">
+                  <div id="about-me-logo" class="col-sm-12 col-md-4 img-circle img-responsive text-center pb-5">
                     <img src="./Images/Logo.png" class="w-75" alt="logo">
                   </div>
                 </div>        
@@ -52,54 +52,75 @@
 
             <!--My Projects Section-->
             <section id="my-projects">
-              <div class="container w-75">
-              <h2>Want to see what I can do?</h2>
-              <p>Browse through my recent projects here.</p>
+              <div class="container w-75 pt-5">
+              <h2 class="pb-3">Want to see what I can do?</h2>
+              <p>Take a look through my recent projects below.</p>
             </div>
             
-            <div class="container w-75">
+            <div class="container w-75 pt-3 pb-5">
                 <div class="card-deck">
                   <!--First Project-->
-                  <div class="card d-flex">
-                    <img src="./Images/Eco Traveller Project.jpg" class="card-img-top" alt="Eco traveller project">
-                    <div class="card-body text-center align-items-center">
+                  <div class="card">
+                    <img src="./Images/Eco Traveller Project edit.jpg" class="card-img-top" alt="Eco traveller project">
+                    <div class="card-body">
                       <h5 class="card-title">Eco Traveller</h5>
                       <h6 class="card-subtitle mb-2 text-muted">A Flexbox Challenge Project</h6>
                       <p class="card-text">This project used Flexbox to create a home page for a fictional travel company.</p>
-                      <a href="#" class="card-link">Take a look</a>
                     </div>
+                      <div class="card-footer">
+                        <a href="https://github.com/Sophkfw/eco-traveller" class="btn btn-primary" target="_blank">Take a look</a>
+                      </div>
+
                   </div>
                   <!--Second Project-->
-                  <div class="card d-flex">
-                    <img src="./Images/Tea Cozy Project Snippet.jpg" class="card-img-top" alt="Tea cozy project">
+                  <div class="card">
+                    <img src="./Images/Tea Cozy Project Snippet edit.jpg" class="card-img-top" alt="Tea cozy project">
                     <div class="card-body">
-                    <div class="card-body text-center align-items-center">
                       <h5 class="card-title">Tea Cozy</h5>
                   <h6 class="card-subtitle mb-2 text-muted">A Flexbox Challenge Project</h6>
                   <p class="card-text">This project aimed to use flexbox and responsive design to create a website for a tea house.</p>
-                  <a href="#" class="card-link">Take a look</a>
+                </div>
+                  <div class="card-footer">
+                  <a href="https://github.com/Sophkfw/Tea-Cozy" class="btn btn-primary" target="_blank">Take a look</a>
                     </div>
-                  </div>
                 </div>
               </div>
             </section>
             <!--My Skills Section-->
             <section id="skills">
-              <h2>My Skills</h2>
-              <div id="skills-container">
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3-alt"></i>
-                <i class="fa-brands fa-bootstrap"></i>
-                <i class="fa-brands fa-square-js"></i>
-                <i class="fa-brands fa-git"></i>
+              <div class="container w-75 py-5">              <h2>My Skills</h2>
+              <div id="skills-container" class="d-flex flex-wrap justify-content-start py-5">
+                <i class="fa-brands fa-html5 fa-2xl"></i>
+                <i class="fa-brands fa-css3-alt fa-2xl px-3"></i>
+                <i class="fa-brands fa-bootstrap fa-2xl"></i>
+                <i class="fa-brands fa-square-js fa-2xl px-3"></i>
+                <i class="fa-brands fa-git fa-2xl"></i>
+              </div>
               </div>
             </section>
-           
-            <!--Contact Me Section-->
-            <section id="contact"></section>
+
+            <section id="contact">
+              <div class="container text-left w-75 pt-4">
+                  <div class="row pt-2">
+                    <div id="contact-me-text"class="col-sm-12 col-md-4">
+                      <h2>Contact Me</h2>
+                      <p class="pt-3">Want to collaborate? Get in touch!</p>
+                    </div>
+                  </div> 
+                  <div class="d-flex flex-row pt-3 justify-content-start py-5">
+                      <a href="https://www.linkedin.com/in/sophie-k-f-white/" target="_blank"><i class="fab fa-linkedin icon fa-2xl"></i></a>
+                      <a href="https://github.com/Sophkfw" target="_blank"><i class="fab fa-github icon fa-2xl px-3"></i></a>
+                      <a href="mailto: sophie.white.developer+collab@gmail.com" target="_blank"><i class="fas fa-envelope-square icon fa-2xl"></i></a>
+                  </div> 
+              </div>   
+            </section>
+
         </main>
         <footer>
-          <p><i class="fa-regular fa-copyright"></i> Sophie White, 2022.</p>
+          <p class="text-center">
+            <i class="fa-regular fa-copyright">
+            </i> Sophie White, 2022.
+          </p>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </body>
