@@ -14,3 +14,12 @@ h1 {
 
 /*About Me Section */
 
+@include media-breakpoint-up(md) { 
+    #about-me-logo {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+ }
