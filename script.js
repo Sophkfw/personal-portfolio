@@ -1,7 +1,7 @@
 //Test function
-window.onload = function(){
-    alert('JavaScript is working woo!');
-}
+/*window.onload = function(){
+    alert('JavaScript is working');
+}*/
 
 //Contact Form Validation
 function validateForm() {
